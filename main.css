@@ -4,6 +4,20 @@
     box-sizing: border-box;
 }
 
+header,
+section h2 {
+    font-family: 'Bungee', sans-serif;
+}
+
+header h1,
+section h2 {
+    font-weight: normal;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 header {
     padding: 16px 0;
     background-color: rgb(165, 1, 1);
@@ -13,7 +27,7 @@ header {
 header nav li {
     display: inline;
     margin-left: 16px;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 header nav li a {
@@ -21,23 +35,46 @@ header nav li a {
     text-decoration: none;
 }
 
-.container {
+.container{
     max-width: 1280px;
     width: 100%;
     margin: 0 auto;
-
 }
 
-header .container {
+header .container, 
+section .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.marcas img {
+.brands-list img {
     height: 24px;
 }
 
-.marcas li {
+.brands-list li {
     display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+    color: rgb(165, 1, 1);
+}
+
+section h2 {
+    margin-bottom: 16px;
+    
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.loja {
+    margin-right: 32px;
 }
