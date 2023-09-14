@@ -17,3 +17,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Modified: changelog.md, index.html, main.css.
+
+
+## [0.0.3] - 2023-08-14
+
+### Added
+
+- Modified: changelog.md, index.html, main.css.
